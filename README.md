@@ -89,10 +89,6 @@ ecommerce-sql-analysis/
   
   │  └── analysis.sql
 
-├── database/
-  
-  │  └── olist.db (or schema description)
-
 ├── dashboards/
   
   │  └── Power BI dashboard
