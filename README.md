@@ -1,7 +1,7 @@
-# 📊 E-Commerce SQL Analysis
+# 📊 E-Commerce Business Analysis (SQL + Power BI)
 
-> **Business-driven SQL analysis of an e-commerce dataset using SQLite**  
-> Focused on revenue, customers, orders, and delivery performance.
+> Business-driven e-commerce analysis using SQL (SQLite) and Power BI  
+> Focused on revenue, customers, orders, and delivery performance
 
 ---
 
@@ -64,6 +64,16 @@ The goal of this project is to demonstrate **practical data analyst skills**, in
 
 ---
 
+## 📌 Business KPIs Defined
+
+- **Total Revenue**: Sum of item prices for delivered orders
+- **Total Orders**: Count of delivered orders
+- **Average Order Value (AOV)**: Revenue ÷ total delivered orders
+- **Total Customers**: Distinct customer count
+- **Monthly Revenue Trend**: Revenue grouped by delivery month
+
+---
+
 ## 🔍 Key Insights
 
 - Revenue is calculated **only from delivered orders** to ensure accuracy  
@@ -93,7 +103,7 @@ ecommerce-sql-analysis/
   
   │  └── analysis.sql
 
-├── powerbi_dashboard.png/
+├── powerbi_dashboard.png
   
 ├── README.md
 
@@ -103,13 +113,12 @@ ecommerce-sql-analysis/
 
 ## 📈 Power BI Dashboard
 
-Below is a snapshot of the Power BI dashboard created to visualize the insights
-derived from SQL analysis:
+Below is a snapshot of the Power BI dashboard created to visualize insights derived from SQL analysis:
 
 ![Power BI Dashboard](powerbi_dashboard.png)
 
-> 📌 The Power BI `.pbix` file is not included due to file size limitations.  
-> The dashboard was built using aggregated outputs from SQL queries.
+📌 The Power BI (.pbix) file is not included due to file size limitations.  
+The dashboard was built using aggregated outputs from SQL queries.
 
 ---
 
